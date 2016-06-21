@@ -60,22 +60,27 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 	var scrollpos=$(window).scrollTop();
 	if(scrollpos>=navoffset){								//scroll more than logo
+	$("#navi").show();
 	$("#navi").css({ "opacity":1,"transition": "opacity 0.4s ease" });
 	}
 	else{													//scroll less than logo
-	$("#navi").css({ "opacity":0,"transition": "opacity 0.4s ease" });
+	$("#navi").css({ "opacity":0,"transition": "opacity 0.4s ease"});
+	$("#navi").hide();
 	}
 	});
 
 
-	//Initializing Parallax
-    $('.parallax').parallax();
-	
 	
 	//Initializing Collapsible
     $('.collapsible').collapsible({
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
+	
+	//Initializing Parallax
+    $('.parallax').parallax();
+	
+	//Initializing Modal
+    $('.modal-trigger').leanModal();
 	
 	
 	//Calling stretchArrow Function
@@ -137,7 +142,7 @@ function home(){
 
 
 function about(){
-  $('body').animate({scrollTop:$("#about").offset().top-60},1000);
+  $('body').animate({scrollTop:$("#about").offset().top-0},1000);
   $( "#1" ).animate({ left:"49.7%", top:"45.1%" }, "fast" );
   $( "#2" ).animate({ left:"50%", top:"44.8%" }, "fast" );
   $( "#3" ).animate({ left:"50.5%", top:"45.2%" }, "fast" );
