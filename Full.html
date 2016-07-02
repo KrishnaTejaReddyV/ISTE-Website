@@ -24,7 +24,6 @@
 <script type="text/javascript" src="static/jquery-2.1.1.min.js"></script>
 <script src="static/materialize.min.js"></script>
 <script src="static/js/modernizr.custom.js"></script>
-<script src="static/materialize.min.js"></script>
 <script src="static/new.js"></script>
 
 <!--Initialising icon font-->
@@ -189,12 +188,29 @@ color:black;
 	</div>
   </div>
   
-  <div class="parallax-container">
-    <div class="parallax">
-		<img src="e.jpg" style="background-repeat:no-repeat;background-size:100%;background-color-top:#ecf0f1">
-	</div>
+		<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="b.jpeg"> <!-- random image -->
+        <div class="caption center-align">
+          <h2 style="margin-top:-55px">This is our big Tagline!</h2>
+        </div>
+      </li>
+      <li>
+        <img src="c.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h2 class="white-text" style="margin-top:-20px">Left Aligned Caption</h2>
+        </div>
+      </li>
+      <li>
+        <img src="d.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h2 style="margin-top:-85px">Right Aligned Caption</h2>
+        </div>
+      </li>
+    </ul>
   </div>
-</div>
+	</div>
 <!--About us ends-->
 
 <!--History Starts-->
@@ -1500,4 +1516,7 @@ color:black;
 <!--Contact Us ends-->
 
 </body>
+<script>
+$('.slider').slider('start');
+</script>
 </html>
