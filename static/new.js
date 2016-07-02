@@ -26,13 +26,11 @@ $(window).resize(function(){
 	{
 	$('#home').hide();
 	$('#small').show();
-	$("#navi").css({ "opacity":1,"transition": "opacity 0.4s ease" });
 	}
   else
 	{
 	$('#home').show();
 	$('#small').hide();
-	$("#navi").css({ "opacity":0,"transition": "opacity 0.4s ease" });
 	}
 });
 
@@ -45,13 +43,11 @@ $(document).ready(function(){
 	{
 	$('#home').hide();
 	$('#small').show();
-	$("#navi").css({ "opacity":1,"transition": "opacity 0.4s ease" });
 	}
   else
 	{
 	$('#home').show();
 	$('#small').hide();
-	$("#navi").css({ "opacity":0,"transition": "opacity 0.4s ease" });
 	}
 
 
