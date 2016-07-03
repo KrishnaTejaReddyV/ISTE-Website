@@ -19,6 +19,7 @@ function stretchArrow(){
   _width = Math.floor($(window).width() / 2);
 
   $('.footer-arrow').css('border-width', '0 ' + _width + 'px 100px ' + _width + 'px');
+  
 }  
 $(window).resize(function(){
   stretchArrow();
@@ -32,6 +33,26 @@ $(window).resize(function(){
 	$('#home').show();
 	$('#small').hide();
 	}
+	
+	
+  if($(window).width()<500)
+  {
+    $('#foot-logo').css('width', '30px');
+    $('#foot-logo').css('left', '45.8%');
+    $('#foot-logo').css('bottom', '13%');
+  }
+  else if($(window).width()<700)
+  {
+    $('#foot-logo').css('width', '5%');
+    $('#foot-logo').css('left', '47.8%');
+    $('#foot-logo').css('bottom', '13%');
+  }
+  else
+  {
+    $('#foot-logo').css('width', '5%');
+    $('#foot-logo').css('left', '47.8%');
+    $('#foot-logo').css('bottom', '11%');
+  }
 });
 
 
@@ -49,6 +70,25 @@ $(document).ready(function(){
 	$('#home').show();
 	$('#small').hide();
 	}
+	
+  if($(window).width()<500)
+  {
+    $('#foot-logo').css('width', '30px');
+    $('#foot-logo').css('left', '45.8%');
+    $('#foot-logo').css('bottom', '13%');
+  }
+  else if($(window).width()<700)
+  {
+    $('#foot-logo').css('width', '5%');
+    $('#foot-logo').css('left', '47.8%');
+    $('#foot-logo').css('bottom', '13%');
+  }
+  else
+  {
+    $('#foot-logo').css('width', '5%');
+    $('#foot-logo').css('left', '47.8%');
+    $('#foot-logo').css('bottom', '11%');
+  }
 
 
 	//Hide/Show Navbar
