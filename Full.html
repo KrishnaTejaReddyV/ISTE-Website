@@ -22,6 +22,7 @@
 <script type="text/javascript" src="static/jssor.slider.mini.js"></script>
 <script type="text/javascript" src="static/slider.js"></script>
 <script type="text/javascript" src="static/jquery-2.1.1.min.js"></script>
+<script src="static/materialize.min.1.js"></script>
 <script src="static/materialize.min.js"></script>
 <script src="static/js/modernizr.custom.js"></script>
 <script src="static/new.js"></script>
@@ -63,9 +64,14 @@ color:black;
 <!--Footer ends-->
 <!--Home Page begins-->
 <div id="first">
-<div id="small" class="row" style="background-image:url('a.jpg')">
+<div id="small">
 
 <!--Cards starts-->
+	<div class="parallax-container">
+		<div class="parallax">
+			<img name="back" src="a.JPG" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;">
+		</div>
+		<div class="row">
 		<div class="col s4 m2 offset-m1">
           <div class="card">
             <div class="card-image">
@@ -121,6 +127,8 @@ color:black;
             </div>
           </div>
         </div>
+		</div>
+	</div>
         
       
       
@@ -146,7 +154,7 @@ color:black;
 <!--Home Page ends-->
 
 <!--About Us Page starts-->
-<div id="about" >
+<div id="about">
 
   <div class="section white">
     <div class="row container">
@@ -226,21 +234,21 @@ color:black;
 						<div class="cbp_tmicon cbp_tmicon-earth"></div>
 						<div class="cbp_tmlabel">
 							<div class="white-text"><b>Gravitas'15</b></div><hr>
-							<div class="white-text">During the Technical Fest of VIT, ISTE-VITU conducted a total of 14 events. This included a total sum of 9 events and 5 workshops. The biggest workshop during the fest "Robotix Workshop" was organised by ISTE.</div> 
+							<div class="white-text">During the Technical Fest of VIT, ISTE conducted 5 workshops and 9 events. This included one of the largest workshop of graVITas, "Robotix" and the premium event "Code-A-Thon" in which winners were given paid internship at CNSI.</div> 
 						</div>
 					</li>
 					<li>
 						<time class="cbp_tmtime" datetime="2013-04-11 12:04"><span style="position:absolute; left:-45px"></span></time>
 						<div class="cbp_tmlabel">
 							<div class="white-text"><b>Riviera'16</b></div><hr>
-							<div class="white-text">During the Cultural Fest of VIT, ISTE-VITU conducted a total of 4 events and helped in making the Fest a huge success.</div>
+							<div class="white-text">During the Cultural Fest of VIT, Riviera, ISTE-VITU conducted 4 events including one of the biggest event of Riviera, Human Foosball.</div>
 						</div>
 					</li>
 					<li>
 						<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span style="position:absolute; left:-45px"></span></time>
 						<div class="cbp_tmlabel">
 							<div class="white-text"><b>Horizon'16</b></div><hr>
-							<div class="white-text">In March 2016 , ISTE-VITU conducted its very first summit. It was a 3 day technical summit where our participants got a chance to learn about different business strategies that could be implemented while coming up with a product idea followed by a competitive implementation session.</div> 
+							<div class="white-text">In March 2016 , ISTE-VITU conducted a 3 day summit in which participants were given a chance to learn about different business strategies that could be implemented with a product idea and how to develop their own website from the scratch. It ended with a competitive implementation session in which the participants were given a problem statement and as a solution for the same they had to come up with a website. The winners were given a total cash prize of up to Rs. 10,000.</div> 
 						</div>
 					</li>
 					<li>
@@ -295,10 +303,10 @@ color:black;
 		<br>
 		<div class="card medium z-depth-3">
 				<div class="card-image waves-effect waves-block waves-light">
-				  <img class="activator" src="static/posters/dsa2.jpg">
+				  <img class="activator" src="static/posters/dsa2.jpg"/>
 				</div>
 				<div class="card-content">
-				  <span class="card-title activator grey-text text-darken-4">Data Structures and Algorithms Workshop <i class="mdi-navigation-more-vert right"></i></span>
+				  <span class="card-title activator grey-text text-darken-4"><strong>Data Structures and Algorithms Workshop</strong> <i class="material-icons right">list</i></span>
 				  <p style="margin-top:0"><a class="modal-trigger black-text" href="#modal1">Link for Registration</a></p>
 				</div>
 				<div class="card-reveal">
@@ -306,9 +314,9 @@ color:black;
 				  <div class="card-image">
 				  <img class="activator" src="static/posters/dsa2.jpg">
 				</div>
-				  Data Structures and Algorithms Workshop <i class="mdi-navigation-close right"></i>
+				  <strong>Data Structures and Algorithms Workshop</strong> <i class="material-icons right">close</i>
 				  </span>
-				  <p>ISTE brings to you our special workshop on Data Structures and Algorithms. Brush up your concepts at the right time. Taught by our competent Tech team, we will provide comprehensive notes to aid the learning. Be there.</p>
+				  <p class="black-text">ISTE brings to you our special workshop on Data Structures and Algorithms. Brush up your concepts at the right time. Taught by our competent Tech team, we will provide comprehensive notes to aid the learning. Be there.</p>
 				</div></div></div></div>
 		</div>
 		<div id="modal1" class="modal">
@@ -553,7 +561,7 @@ color:black;
 </div>
 <div id="modal1" class="modal">
 	<div class="modal-content">
-		<h4>Data Structures and Algorithms</h4>
+		<h4>Data Structures and Algorithms</h4><hr>
 		<p class="black-text">‘Teach For Vellore’ is an initiative taken by ISTE (Indian Society for Technical 
 		Education) to spread practical, technical knowledge among the children of Vellore. It is a 
 		platform for deserving students who do not have the amenities and resources but have a thirst 
@@ -574,7 +582,7 @@ color:black;
 </div>
 <div id="modalTFV" class="modal">
 	<div class="modal-content">
-		<h4>Teach for Vellore</h4>
+		<h4><center>Teach for Vellore</center></h4><hr>
 		<p class="black-text">‘Teach For Vellore’ is an initiative taken by ISTE (Indian Society for Technical 
 		Education) to spread practical, technical knowledge among the children of Vellore. It is a 
 		platform for deserving students who do not have the amenities and resources but have a thirst 
@@ -589,26 +597,20 @@ color:black;
 		more such sessions. To conclude we were delighted to see students willing to explore their career options and 
 		making a small yet significant step towards their career.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal2" class="modal">
 	<div class="modal-content">
-		<h4>Horizon'16</h4>
+		<h4><center>Horizon'16</center></h4><hr>
 		<p class="black-text">Indian Society for Technical Education conducted a 3-day summit on the 18th,19th and 20th of March,2016. 
 		On Day 1, a workshop on Webpreneurship was taken by the CEO and founder of Innovians Technologies, Mr. Prateek Gupta. Mr. Prateek is a young entrepreneur and technocrat and has guided many start-up companies to achieve their goals. 
 		On Day 2, a workshop was conducted where we taught our participants the basics of front end and back end development using Materialise and Flask. 
 		On Day-3, a competitive implementation session was held , wherein the participants were given a problem statement and they had to make a web based product and think of ideas to sell it. The winners were awarded with a price money of 5k, 3k and 2k respectively. 
 		Refreshments and certificates were provided to all the participants.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal3" class="modal">
 	<div class="modal-content">
-		<h4>Aquabot</h4>
+		<h4><center>Aquabot</h4><hr>
 		<p class="black-text">Aquabot was an innovative and uniquely designed competition by ISTE. The competition comprised of 3 
 		rounds spanning over 2 days. The event showcased robots maneuvering through the aquatic environment and scrounging for coins. The 
 		team with the maximum coins in minimum time limit won the competition. 
@@ -619,13 +621,10 @@ color:black;
 		water and waves in a 50 meter race. The event was a success with an active participation from internal, as well as, external participants.
 		</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal4" class="modal">
 	<div class="modal-content">
-		<h4>Artificial Intelligence</h4>
+		<h4><center>Artificial Intelligence</h4><hr>
 		<p class="black-text">ISTE conducted a workshop which was an interactive session between participants and the speakers. 
 		Artificial intelligence explores the boundary line of what humans have already reached and is hence a 
 		vital component of future research and development of scientific technology. 
@@ -641,13 +640,10 @@ color:black;
 		intelligence. With the active participation of both the participants and speakers, this workshop was a 
 		huge success with positive feedback from the participants.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal5" class="modal">
 	<div class="modal-content">
-		<h4>Augmented Reality</h4>
+		<h4><center>Augmented Reality</h4><hr>
 		<p class="black-text">Augmented Reality was brought up for the first time in graVITas. It aimed at merging ones real world with 
 		the virtual world. Its cutting edge theme was used to enhance one’s perception of reality. Augmentation is 
 		conventionally in real time and in semantic context with environmental elements. The workshop dealt with 
@@ -658,13 +654,10 @@ color:black;
 		eminent figure with extreme intellectual thinking and great understanding of the link between the real world 
 		and the vast based applications of the virtual worlds and simulations we humans have been able to create.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal6" class="modal">
 	<div class="modal-content">
-		<h4>Cloud Computing</h4>
+		<h4><center>Cloud Computing</h4><hr>
 		<p class="black-text">Cloud computing was a new venture into the vast themes in workshop. The workshop majorly was based
 		upon ‘on demand computing’ which was basically a kind of internet based computing, where shared 
 		resources, data and information are provided to computers and other devices on demand. The major topic of 
@@ -675,13 +668,10 @@ color:black;
 		maintenance. It demonstrated an example of how cloud technology works as an efficient system to improve quality service 
 		to reduce overhead costs, downtime and automate infrastructure deployment.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal7" class="modal">
 	<div class="modal-content">
-		<h4>Code-a-thon</h4>
+		<h4><center>Code-a-thon</h4><hr>
 		<p class="black-text">Code-a-thon was a 24-hour coding event where participants had to work in a team of two and apply their 
 		logical and problem solving skills to solve questions using any coding language. It was a premier coding 
 		challenge for students hailing from all walks of engineering who have a zeal for programming in a competitive environment.
@@ -693,13 +683,10 @@ color:black;
 		marked out of 200 and the top three teams cash prizes along with paid internship by our sponsors, CNSI, Chennai worth Rs.10,000 each. 
 		The event received an extensive turn out of participants with an overwhelming response which made it a big hit.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal8" class="modal">
 	<div class="modal-content">
-		<h4>Dimensions</h4>
+		<h4><center>Dimensions</h4><hr>
 		<p class="black-text">DIMENSIONS , a technical robotic event was conducted in Gravitas’15. It involved two 
 		opponents protecting their city which consisted of certain number of walls. 
 		Each team consisted of three participants. Both the teams were given the bots and they had to 
@@ -708,13 +695,10 @@ color:black;
 		The winner was the team whose city was least destroyed. 
 		By the feedback received by the participants, the event was a successful and they enjoyed participating in it.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal9" class="modal">
 	<div class="modal-content">
-		<h4>Human Foosball</h4>
+		<h4><center>Human Foosball</h4><hr>
 		<p class="black-text">Human Foosball was an exciting informal event that was conducted by ISTE in 
 		graVITas’15. The event attracted the masses and was a huge success.
 		In this event, instead of playing foosball on a table, participants had to compete in an arena 
@@ -724,13 +708,10 @@ color:black;
 		The event attracted the masses and was a huge success. A large number of students, internal 
 		as well as external, participated in the event.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal10" class="modal">
 	<div class="modal-content">
-		<h4>Impedence</h4>
+		<h4><center>Impedence</h4><hr>
 		<p class="black-text">The event, Impedance, which was conducted by ISTE focused on the basics of electronics, its knowledge 
 		and implementation. The whole event was revolving around the electrical concepts that the participants have learnt overall.
 		The event consisted of three rounds where participants took part as a team of two. The first round was the 
@@ -738,13 +719,10 @@ color:black;
 		rounds, the teams were given circuit diagramsandwere required to construct the circuit on the breadboard 
 		and get the required value of potential. The participants gave a positive response and found the event interesting and challenging.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal11" class="modal">
 	<div class="modal-content">
-		<h4>Robotix</h4>
+		<h4><center>Robotix</h4><hr>
 		<p class="black-text">Robotix, the biggest pre-gravitas workshop and the most awaited event was conducted on 20th September. 
 		In the session, advanced electronic principles are used to design complex and elaborate robots which have 
 		diverse range of applications. Participants are provided with a kit which enabled them to make five bots 
@@ -763,13 +741,10 @@ color:black;
 		The Gesture Controlled Bot:This bot can be controlled using human gestures. It uses an accelerometer to 
 		get different signals based upon its orientation.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal12" class="modal">
 	<div class="modal-content">
-		<h4>RoboGP</h4>
+		<h4><center>RoboGP</h4><hr>
 		<p class="black-text">ROBO-GP was a robotics event conducted by ISTE which primarily included racing of a bot along with 
 		rigorous testing of its speed and control. It focused on improving the driving ability of the robots and 
 		simultaneously gave participants a paramount racing experience which left them completely satisfied with 
@@ -781,13 +756,10 @@ color:black;
 		This event was immensely appreciated by all those who participated and was overall a huge success. This 
 		gave them an insight into the world of robotics and was well received by the participants.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal13" class="modal">
 	<div class="modal-content">
-		<h4>Stockgyaan</h4>
+		<h4><center>Stockgyaan</h4><hr>
 		<p class="black-text">Stock Gyaan was a workshop conducted on the basics of the Indian Financial Markets and their working.
 		This workshop was specifically for all those who were interested in stock market and its analysis, a career in 
 		investment and finance, a game of maths and luck to make a career out of it and who want to have an extra 
@@ -800,13 +772,10 @@ color:black;
 		with an experience of over 12 years. He also provides advisory services to all kinds of investors like HNIs, 
 		NRIs, Retail, Corporates, and Trusts.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal14" class="modal">
 	<div class="modal-content">
-		<h4>The Amazing Race</h4>
+		<h4><center>The Amazing Race</h4><hr>
 		<p class="black-text">Amazing Race was a two day event, conducted by ISTE which was based on the American Television Show 
 		but with a technical touch including technical clues and tasks.Teams of two were made to run around the 
 		entire campus and the team that arrived at the final destination won the race. 
@@ -820,13 +789,10 @@ color:black;
 		organization of the event.TheAmazing Race turned out to be a very successful event with a very active 
 		participation from all participants.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal15" class="modal">
 	<div class="modal-content">
-		<h4>True Detective</h4>
+		<h4><center>True Detective</h4><hr>
 		<p class="black-text">One of the most anticipated events of graVITas’15, True Detective was an informal event based on forensic 
 		sciences and narcotics. The event was held on the first day of graVITas ’15 for duration of six hours. The participants arrived in 
 		teams of two to solve a murder mystery and they were given clues, which led them to certain locations within 
@@ -836,15 +802,12 @@ color:black;
 		round, they had to decrypt the ciphers using a cipher manual in order to find the killer. 
 		The event turned out to be a huge success with positive feedback from all the participants.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal16" class="modal">
 	<div class="modal-content">
-		<h4>Ultimate Engineer</h4>
+		<h4><center>Ultimate Engineer</h4><hr>
 		<p class="black-text">ULTIMATE ENGINEER, a premium event organised in Gravitas’15 ,tested the participants on their 
-		knowledge, skills and . 
+		knowledge, skills and management. 
 		The first round was a computer based round and teams qualified according to their scores. In the next round 
 		questions related to their branch when decoded led them to different locations. Third round was an online 
 		maze and the fastest to complete the maze from each branch qualified for last round. The final round was a 
@@ -853,13 +816,10 @@ color:black;
 		Participants liked the concept of online maze and buzzer round and felt that race against time added to excitement.
 		Overall this was a successful event as reflected from the feedback received from the participants.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal17" class="modal">
 	<div class="modal-content">
-		<h4>The Amazing Race</h4>
+		<h4><center>The Amazing Race</h4><hr>
 		<p class="black-text">Bringing the famous American Reality Game Show to VIT, this event is a thrilling and exciting race around 
 		the campus.The race comprised of several challenges spanning over 2 days. Teams of two were made to 
 		travel through the entire campus to find clues and perform interesting tasks.
@@ -871,13 +831,10 @@ color:black;
 		series of interesting tasks involving walking on bricks, crossing the maze, three-legged race etc. The event 
 		turned out to be a huge success with a very active participation and received appreciation from all the participants.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal18" class="modal">
 	<div class="modal-content">
-		<h4>Live Angry Birds</h4>
+		<h4><center>Live Angry Birds</h4><hr>
 		<p class="black-text">Live Angry Birds was a fun, new and enthralling event conducted for the first time by ISTE in Riviera’16. 
 		This event was an attempt to bring the famous mobile game, ‘Angry Birds’ to life. In this event, two huge 
 		catapults were made for the event, which amplified the feel of playing the Angry Birds live. This event 
@@ -887,13 +844,10 @@ color:black;
 		their skills and strength in the real world of gaming by destroying the arena set up by the opponent team with 
 		the help of catapults. The team that scored the maximum points won. The event received a good response from the masses.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal19" class="modal">
 	<div class="modal-content">
-		<h4>Prison Break</h4>
+		<h4><center>Prison Break</h4><hr>
 		<p class="black-text">Prison Break was a 2 day event conducted by ISTE that is inspired by various detective series and 
 		movies.The event consisted of 10 rounds where participants were challenged to think on their feet and solve 
 		intricate ciphers. The event basically involved a team of two, one person being inside the prison and the 
@@ -903,13 +857,10 @@ color:black;
 		part of the story and the other person performed tasks like solving clues to get to a location in order to get 
 		the next cipher. After every round, the person inside the prison went outside and vice versa.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal20" class="modal">
 	<div class="modal-content">
-		<h4>Human Foosball</h4>
+		<h4><center>Human Foosball</h4><hr>
 		<p class="black-text">Human Foosball was the most popular, enthralling and exciting informal event that was conducted by ISTE. 
 		It was conducted on all four days of Riviera every year. In this event, instead of playing foosball on a table, 
 		participants had to physically compete in an arena replacing the tiny plastic players, as the name suggests. 
@@ -917,26 +868,20 @@ color:black;
 		people entering the arena. Participants played in teams of 5 and the main aim was to score as many goals as possible and for the 
 		winning team to have as high a score difference as possible.p</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal21" class="modal">
 	<div class="modal-content">
-		<h4>Tech League Session 1</h4>
+		<h4><center>Tech League Session 1</h4><hr>
 		<p class="black-text">The first session of the Tech League was Photoshop which helped the students to master photo editing on Adobe CS6 from scratch. 
 		The event was conducted by the technical head, Ashay Shah, who made the session interesting by briefly 
 		explaining the different features of the software by using photos as examples and editing them, giving the 
 		students a hands on experience. He dealt with the various tools available in the software and taught them the 
 		basics in a very comprehensive manner.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal22" class="modal">
 	<div class="modal-content">
-		<h4>Tronix League Session 1</h4>
+		<h4><center>Tronix League Session 1</h4><hr>
 		<p class="black-text">The first session of Tronix League conducted by ISTE helped the students to learn the basics of LED 
 		circuitry and Arduino Language to make a 3x3x3 LED cube. 
 		The event was conducted by the technical head, Poroma Banerjee, wherein she explained basic commands of 
@@ -945,35 +890,26 @@ color:black;
 		knowledge of the LED cube designing.
 		The workshop was appreciated by all which was reflected on the feedback forms. Overall the workshop was a huge success.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modal23" class="modal">
 	<div class="modal-content">
-		<h4>Diving into MSP430(Tronix League Session 2)</h4>
+		<h4><center>Diving into MSP430 (Tronix League Session 2) </h4><hr>
 		<p class="black-text">ISTE in collaboration with a group of students supported by Texas Instruments organised a one day 
 		workshop on MSP430. The workshop was conducted by Mohammad Saad Rashid, Kartikeya Bhargava and Parin Jhaveri.
 		They made the workshop very interesting by teaching the participants about the Microprocessor MSP430
 		and its working. Kits and softwares were provided to make it an interactive hands on session. The event
 		received a good response and it was overall a huge success.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <div id="modalbq" class="modal">
 	<div class="modal-content">
-		<h4>Brain Quest</h4>
+		<h4><center>Brain Quest</h4><hr>
 		<p class="black-text">ISTE brings back the ultimate quiz conducted for the fourth consecutive year, 'BRAIN QUEST'
 		a fiercely contested between the different schools of VIT for the top spot. 
 		It will be conducted in collaboration with DBQC(quiz club of VIT). It will have two rounds. The first round will 
 		be conducted school-wise where top two participants will be teamed up. Second and the final round will be 
 		a contest between the respective teams of different schools.</p>
 	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
-    </div>
 </div>
 <!--Events end-->
 
@@ -1489,10 +1425,10 @@ color:black;
 	  <div class="row">
 	  <a href="https://www.facebook.com/krishnateja.reddy2?fref=ts">
       <div class="col s6 offset-s3">
-        <div class="card-panel grey lighten-3">
-          <span class="white-text" style="text-align:center"><h5>Krishna Teja Reddy</h5>
+        <div class="card-panel grey darken-4">
+          <span style="text-align:center"><h5 class="white-text">Krishna Teja Reddy</h5>
           </span>
-		  <span class="white-text" style="text-align:center"><h6>Project Lead</h6>
+		  <span style="text-align:center"><h6 class="white-text">Project Lead</h6>
           </span>
         </div>
       </div>
@@ -1501,20 +1437,20 @@ color:black;
 	  <div class="row">
 	  <a href="https://www.facebook.com/yashg1997">
 	  <div class="col s6 m6 " >
-        <div class="card-panel grey lighten-3">
-          <span class="white-text" style="text-align:center"><h5>Yash Gupta</h5>
+        <div class="card-panel grey darken-4">
+          <span style="text-align:center"><h5 class="white-text">Yash Gupta</h5>
           </span>
-		  <span class="white-text" style="text-align:center"><h6>Front-End Developer</h6>
+		  <span style="text-align:center"><h6 class="white-text">Front-End Developer</h6>
           </span>
         </div>
       </div>
 	  </a>
 	  <a href="https://www.facebook.com/sagargoel6?fref=ts">
 	  <div class="col s6 " style="height:30%">
-        <div class="card-panel grey lighten-3">
-          <span class="white-text" style="text-align:center"><h5>Sagar Goel</h5>
+        <div class="card-panel grey darken-4">
+          <span style="text-align:center"><h5 class="white-text">Sagar Goel</h5>
           </span>
-		  <span class="white-text" style="text-align:center"><h6>Front-End Developer</h6>
+		  <span style="text-align:center"><h6 class="white-text">Front-End Developer</h6>
           </span>
         </div>
       </div>
@@ -1523,28 +1459,25 @@ color:black;
 	  <div class="row">
 	  <a href="https://www.facebook.com/killervishu?fref=ts">
 	  <div class="col s6 " style="height:30%">
-        <div class="card-panel grey lighten-3">
-          <span class="white-text" style="text-align:center"><h5>Vishu Aggarwal</h5>
+        <div class="card-panel grey darken-4">
+          <span style="text-align:center"><h5 class="white-text">Vishu Aggarwal</h5>
           </span>
-		  <span class="white-text" style="text-align:center"><h6>Front-End Developer</h6>
+		  <span style="text-align:center"><h6 class="white-text">Front-End Developer</h6>
           </span>
         </div>
       </div>
 	  </a>
 	  <a href="https://www.facebook.com/vaibhav.satpathy?fref=ts">
 	  <div class="col s6 " >
-        <div class="card-panel grey lighten-3">
-          <span class="white-text" style="text-align:center"><h5>Vaibhav Satpathy</h5>
+        <div class="card-panel grey darken-4">
+          <span style="text-align:center"><h5 class="white-text">Vaibhav Satpathy</h5>
           </span>
-		  <span class="white-text" style="text-align:center"><h6>Front-End Developer</h6>
+		  <span style="text-align:center"><h6 class="white-text">Front-End Developer</h6>
           </span>
         </div>
       </div>
 	  </a>
     </div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OKAY</a>
     </div>
   </div>
   <div id="v" class="modal">
@@ -1553,22 +1486,19 @@ color:black;
 	  <br><br>
 	  <hr>
       <div class="col s12 " >
-        <div class="card-panel grey lighten-3">
-          <span class="white-text" style="text-align:center"><h5>pr.istevitu@vit.ac.in</h5>
+        <div class="card-panel grey darken-4">
+          <span style="text-align:center"><h5 class="white-text">pr.istevitu@vit.ac.in</h5>
           </span>
         </div>
       </div>
 	  <div class="col s12 " >
-        <div class="card-panel grey lighten-3">
-          <span class="white-text" style="text-align:center"><h5>iste@vit.ac.in</h5>
+        <div class="card-panel grey darken-4">
+          <span style="text-align:center"><h5 class="white-text">iste@vit.ac.in</h5>
           </span>
         </div>
       </div>
 	  <br>
 	</div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OKAY</a>
-    </div>
   </div>
 
 
