@@ -69,7 +69,7 @@ color:black;
 <!--Cards starts-->
 	<div class="parallax-container">
 		<div class="parallax">
-			<img name="back" src="a.JPG" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;">
+			<img name="back" src="static/team/a.jpg" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;">
 		</div>
 		<div class="row">
 		<div class="col s4 m2 offset-m1">
@@ -138,7 +138,7 @@ color:black;
 <div id="home" style="height:100%">
 	<div class="parallax-container">
 		<div class="parallax">
-			<img name="back" src="a.JPG" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;opacity:0.97">
+			<img name="back" src="static/team/a.jpg" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;opacity:0.97">
 		</div>
 		<div class='circle-container'>
 				<img style="width:20%;top:50%;left:50%;position:absolute;transform:translateY(-50%) translateX(-50%)"src="ISTE-Logo.png"/>
@@ -300,30 +300,44 @@ color:black;
 		</div>
 		<div id="modal1" class="modal">
 		<div class="modal-content">
-		<h2>Register</h2>
+		<h4><center>Register</h4><hr>
 		<form class="col s12">
 		<div class="row">
 		<div class="input-field col s12 l12">
-		<i class="large prefix material-icons" style="top:10">perm_identity</i>
+		<i class="large black-text prefix material-icons" style="top:10">person</i>
 		<input type="text" id="n" class="validate">
 		<label for="n">Name</label>
 		</div>
 		</div>
 		<div class="row">
 		<div class="input-field col s12 l12">
-		<i class="large prefix material-icons" style="top:10">subtitles</i>
+		<i class="large black-text prefix material-icons" style="top:10">subtitles</i>
 		<input type="text" id="reg" class="validate">
 		<label for="reg">Registration Number</label>
 		</div>
 		</div>
 		<div class="row">
 		<div class="input-field col s12 l12">
-		<i class="large prefix material-icons" style="top:10">call</i>
+		<i class="large black-text prefix material-icons" style="top:10">call</i>
 		<input type="text" id="mob" class="validate">
-		<label for="mob">Mobile</label>
+		<label for="mob">Mobile Number</label>
 		</div>
 		</div>
-		<button class="btn right wave-effect wave-light red lighten-1" type="submit">Submit
+		<div class="row">
+		<div class="input-field col s12 l12">
+		<i class="large black-text prefix material-icons" style="top:10">mail</i>
+		<input type="text" id="mail" class="validate">
+		<label for="mail">Email ID</label>
+		</div>
+		</div>
+		<div class="row">
+		<div class="input-field col s12 l12">
+		<i class="large black-text prefix material-icons" style="top:10">group</i>
+		<input type="text" id="mem" class="validate">
+		<label for="mem">Are you an ISTE Member? (Yes/No)</label>
+		</div>
+		</div>
+		<button class="btn wave-effect wave-light black lighten-1" type="submit">Submit
 		<i class="material-icons right">send</i>
 		</button>
 		</form>
@@ -1293,12 +1307,12 @@ color:black;
 					<label for="title">Name</label>
 				</div>
 				<div class="input-field col s8 offset-s2">
-					<input type="text" id="title" name="title" class="validate" >
-					<label for="title">Registration no.</label>
+					<input type="text" id="mail" name="mail" class="validate" >
+					<label for="mail">Email</label>
 				</div>
 				<div class="input-field col s8 offset-s2">
 					<textarea id="blog" name="content" class="materialize-textarea"></textarea>
-					<label for="blog">Query</label>
+					<label for="blog">Message</label>
 				</div>
 		</div>
 		<div class="row">
