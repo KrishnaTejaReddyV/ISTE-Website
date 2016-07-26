@@ -1374,7 +1374,7 @@ mysql_query($query);
 	<div class="col s1">
 		<a>
 		<div class="modal-trigger" href="#v">
-		<img src="static/icons/mailc.png" STYLE="position:absolute; LEFT:16%; WIDTH:130px; HEIGHT:130px">
+		<img src="static/icons/mailc.png" onmouseover="this.src='static/icons/mailc.png';" onmouseout="this.src='static/icons/mailc.png'" STYLE="position:absolute; LEFT:16%; WIDTH:130px; HEIGHT:130px">
 		</div>
 		</a>
     </div>	
