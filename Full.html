@@ -68,70 +68,8 @@ color:black;
 <div id="small">
 
 <!--Cards starts-->
-	<div class="parallax-container">
-		<div class="parallax">
-			<img name="back" src="static/team/a.jpg" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;">
-		</div>
-		<div class="row">
-		<div class="col s4 m2 offset-m1">
-          <div class="card">
-            <div class="card-image">
-              <img src="static/icons/au1.png">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-action">
-              <center><b><a href="#about" class="black-text" style="font-size:12px">About</a></b></center>
-            </div>
-          </div>
-        </div>
-		<div class="col s4 m2">
-          <div class="card">
-            <div class="card-image">
-              <img src="static/icons/pe1.png">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-action">
-              <center><b><a href="#history" class="black-text" style="font-size:12px">History</a></b></center>
-            </div>
-          </div>
-        </div>
-		<div class="col s4 m2">
-          <div class="card">
-            <div class="card-image">
-              <img src="static/icons/e1.png">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-action">
-              <center><b><a href="#events" class="black-text" style="font-size:12px">Events</a></b></center>
-            </div>
-          </div>
-        </div>
-		<div class="col s4 m2 offset-s2">
-          <div class="card">
-            <div class="card-image">
-              <img src="static/icons/ot1.png">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-action">
-              <center><b><a href="#team" class="black-text" style="font-size:12px">Team</a></b></center>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m2">
-          <div class="card">
-            <div class="card-image">
-              <img src="static/icons/cu1.png">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-action">
-              <center><b><a href="#contact" class="black-text" style="font-size:12px">Contact</a></b></center>
-            </div>
-          </div>
-        </div>
-		</div>
-	</div>
-        
-      
+	
+		
       
 <!--Cards ends-->
 
@@ -906,9 +844,9 @@ color:black;
 <h2 class="center black-text lighten-1" >Team ISTE</span></h2>
 	<div id="navbar" class="col s12">
 			<ul class="tabs row" style="z-index:0">
-				<li class="tab col s4"><a class="black-text"href="#faculty">Faculty Coordinator</a></li>
-				<li class="tab col s4"><a href="#board" class="black-text">Board Members</a></li>
-				<li class="tab col s4"><a href="#core" class="black-text">Core Members</a></li>
+				<li id="fac_tab" class="tab col s4"><a class="black-text"href="#faculty">Faculty Coordinator</a></li>
+				<li id="board_tab" class="tab col s4"><a onclick="board()" href="#board" class="black-text">Board Members</a></li>
+				<li id="core_tab" class="tab col s4"><a onclick="core()" href="#core" class="black-text">Core Members</a></li>
 			</ul>
 	</div>
 	<div id="faculty">
@@ -916,10 +854,10 @@ color:black;
 			<div class="col l3 s6 offset-l2">
 				<div class="card large" style="margin-top:100px" style="margin-top:100px">
 					<div class="card-image" >
-						<img src="static/team/Amit.jpg" style="height:100%">
+						<img src="static/team/amit.jpg" style="height:100%">
 					</div>
 					<div class="card-content">
-						<center><p style="font-family:verdana"><h5>Mr. A Mahindrakar</h5></p></center>
+						<center><p style="font-family:verdana"><h5>Mr. Amit Mahindrakar</h5></p></center>
 						<center><h6>Faculty Coordinator</h6></center>
 					</div>
 				</div>
@@ -942,8 +880,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style="margin-top:100px">
 				<a href="https://www.facebook.com/krishnateja.reddy2?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/teja.jpg" style="height:100%">
+				<div id="teja" class="card-image">
 				</div>
 				<div class="card-content">
 					<center><h5>Krishna Teja Reddy</h5></center>
@@ -955,8 +892,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/anujay.tiwari.3?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/anujay.jpg" style="height:100%">
+				<div id="anujay" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Anujay Tiwari</h5></center>
@@ -968,8 +904,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/ankic29?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/ankita.JPG" style="height:100%">
+				<div id="ankita" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Ankita Choudhary</h5></center>
@@ -981,8 +916,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/KanyaSinha?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/kinnri.jpg" style="height:100%">
+				<div id="kinnri" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Kinnri Sinha</h5></center>
@@ -994,8 +928,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/HariKrishnaKrish361?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/hari.jpg" style="height:100%">
+				<div id="hari" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Hari Krishna</h5></center>
@@ -1007,8 +940,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/poroma.banerjee.5?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/poroma.jpg" style="height:100%">
+				<div id="poroma" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Poroma Banerjee</h5></center>
@@ -1020,8 +952,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/ashay.shah.566?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/ashay.jpg" style="height:100%">
+				<div id="ashay" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Ashay Shah</h5></center>
@@ -1033,8 +964,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/gargi.vyas.7?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/gargi.JPG" style="height:100%">
+				<div id="gargi" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Gargi Vyas</h5></center>
@@ -1046,8 +976,7 @@ color:black;
 		<div class="col l3 s6 offset-l3">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/goyalrishi?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/rishabh.jpg" style="height:100%">
+				<div id="rishabh" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Rishabh Goyal</h5></center>
@@ -1059,8 +988,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/siddhant.sorann?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/sid.jpg" style="height:100%">
+				<div id="sid" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Siddhant Sorann</h5></center>
@@ -1076,8 +1004,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/adityan.elangovan?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/adityan.jpg" style="height:100%">
+				<div id="adityan" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Adityan Elangovan</h5></center>
@@ -1089,8 +1016,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/smart.aryanraj?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/aryan.jpg" style="height:100%">
+				<div id="aryan" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Aryan Raj Singh</h5></center>
@@ -1102,8 +1028,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/guneet.bhatia.77?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/guneet.jpg" style="height:100%">
+				<div id="guneet" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Guneet Bhatia</h5></center>
@@ -1115,8 +1040,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/profile.php?id=100007944244409&fref=ts">
-				<div class="card-image" >
-					<img src="static/team/mayank.jpg" style="height:100%">
+				<div id="mayank" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Mayank Bharadwaj</h5></center>
@@ -1128,8 +1052,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/pranav.sethi.7?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/pranav.jpg" style="height:100%">
+				<div id="pranav" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Pranav Sethi</h5></center>
@@ -1141,8 +1064,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/sagargoel6?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/sagar.jpg" style="height:100%">
+				<div id="sagar" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Sagar Goel</h5></center>
@@ -1154,8 +1076,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/sarguru.sg?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/sarguru.jpg" style="height:100%">
+				<div id="sarguru" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Sarguru</h5></center>
@@ -1167,8 +1088,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/profile.php?id=100009450449405&fref=ts">
-				<div class="card-image" >
-					<img src="static/team/snehil.jpg" style="height:100%">
+				<div id="snehil" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Snehil</h5></center>
@@ -1180,8 +1100,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/somya.agarwal.397?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/somya.jpg" style="height:100%">
+				<div id="somya" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Somya Agarwal</h5></center>
@@ -1193,8 +1112,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/ria.arora.1310?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/ria.jpg" style="height:100%">
+				<div id="ria" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Ria Arora</h5></center>
@@ -1206,8 +1124,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/profile.php?id=100004564656982&fref=ts">
-				<div class="card-image" >
-					<img src="static/team/ritika.jpg" style="height:100%">
+				<div id="ritika" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Ritika Ghosh</h5></center>
@@ -1219,8 +1136,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/uddipta.goswami?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/ud.jpg" style="height:100%">
+				<div id="ud" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Uddipta Goswami</h5></center>
@@ -1232,8 +1148,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/vaibhav.satpathy?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/vaibhav.jpg" style="height:100%">
+				<div id="vaibhav" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Vaibhav Satpathy</h5></center>
@@ -1245,8 +1160,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/vaishnavisakshi.shahsingh?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/vaishnavi.jpg" style="height:100%">
+				<div id="vaishnavi" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Vaishnavi Shah</h5></center>
@@ -1258,8 +1172,7 @@ color:black;
 		<div class="col l3 s6">
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/killervishu?fref=ts">
-				<div class="card-image" >
-					<img src="static/team/vishu.jpg" style="height:100%">
+				<div id="vishu" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Vishu Aggarwal</h5></center>
@@ -1271,8 +1184,7 @@ color:black;
 		<div class="col l3 s6" >
 			<div class="card large" style=";margin-top:100px">
 				<a href="https://www.facebook.com/yashg1997">
-				<div class="card-image" >
-					<img src="static/team/yash.jpg" style="height:100%">
+				<div id="yash" class="card-image" >
 				</div>
 				<div class="card-content">
 					<center><h5>Yash Gupta</h5></center>

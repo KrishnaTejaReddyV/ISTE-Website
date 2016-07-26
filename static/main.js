@@ -26,6 +26,7 @@ $(window).resize(function(){
   if($(window).width()<1200)
 	{
 	$('#home').hide();
+	$('#small').html('<div class="row"style="background-image:url(&#39;static/team/a.jpg&#39;);background-size: cover;height:100%"><div class="col s4 m2 offset-m1"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/au1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#about"class="black-text"style="font-size:12px">About</a></b></center></div></div></div><div class="col s4 m2"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/pe1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#history"class="black-text"style="font-size:12px">History</a></b></center></div></div></div><div class="col s4 m2"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/e1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#events"class="black-text"style="font-size:12px">Events</a></b></center></div></div></div><div class="col s4 m2 offset-s2"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/ot1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#team"class="black-text"style="font-size:12px">Team</a></b></center></div></div></div><div class="col s4 m2"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/cu1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#contact"class="black-text"style="font-size:12px">Contact</a></b></center></div></div></div></div>');
 	$('#small').show();
 	}
   else
@@ -50,6 +51,40 @@ $(window).resize(function(){
 });
 
 
+
+function core(){
+$('#adityan').html('<img src="static/team/adityan.jpg" style="height:100%">');
+$('#aryan').html('<img src="static/team/aryan.jpg" style="height:100%">');
+$('#guneet').html('<img src="static/team/guneet.jpg" style="height:100%">');
+$('#mayank').html('<img src="static/team/mayank.jpg" style="height:100%">');
+$('#pranav').html('<img src="static/team/pranav.jpg" style="height:100%">');
+$('#sarguru').html('<img src="static/team/sarguru.jpg" style="height:100%">');
+$('#snehil').html('<img src="static/team/snehil.jpg" style="height:100%">');
+$('#somya').html('<img src="static/team/somya.jpg" style="height:100%">');
+$('#ria').html('<img src="static/team/ria.jpg" style="height:100%">');
+$('#ritika').html('<img src="static/team/ritika.jpg" style="height:100%">');
+$('#ud').html('<img src="static/team/ud.jpg" style="height:100%">');
+$('#vaibhav').html('<img src="static/team/vaibhav.jpg" style="height:100%">');
+$('#vaishnavi').html('<img src="static/team/vaishnavi.jpg" style="height:100%">');
+$('#vishu').html('<img src="static/team/vishu.jpg" style="height:100%">');
+$('#yash').html('<img src="static/team/yash.jpg" style="height:100%">');
+$('#sagar').html('<img src="static/team/sagar.jpg" style="height:100%">');
+}
+
+function board(){
+$('#teja').html('<img src="static/team/teja.jpg" style="height:100%">');
+$('#anujay').html('<img src="static/team/anujay.jpg" style="height:100%">');
+$('#ankita').html('<img src="static/team/ankita.jpg" style="height:100%">');
+$('#kinnri').html('<img src="static/team/kinnri.jpg" style="height:100%">');
+$('#hari').html('<img src="static/team/hari.jpg" style="height:100%">');
+$('#ashay').html('<img src="static/team/ashay.jpg" style="height:100%">');
+$('#poroma').html('<img src="static/team/poroma.jpg" style="height:100%">');
+$('#gargi').html('<img src="static/team/gargi.jpg" style="height:100%">');
+$('#rishabh').html('<img src="static/team/rishabh.jpg" style="height:100%">');
+$('#sid').html('<img src="static/team/sid.jpg" style="height:100%">');
+}
+
+
 //When document gets ready
 $(document).ready(function(){
 
@@ -57,6 +92,7 @@ $(document).ready(function(){
 	if($(window).width()<1200)
 	{
 	$('#home').hide();
+	$('#small').html('<div class="row"style="background-image:url(&#39;static/team/a.jpg&#39;);background-size: cover;height:100%"><div class="col s4 m2 offset-m1"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/au1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#about"class="black-text"style="font-size:12px">About</a></b></center></div></div></div><div class="col s4 m2"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/pe1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#history"class="black-text"style="font-size:12px">History</a></b></center></div></div></div><div class="col s4 m2"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/e1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#events"class="black-text"style="font-size:12px">Events</a></b></center></div></div></div><div class="col s4 m2 offset-s2"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/ot1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#team"class="black-text"style="font-size:12px">Team</a></b></center></div></div></div><div class="col s4 m2"style="padding-top:10%"><div class="card"><div class="card-image"><img src="static/icons/cu1.png"><span class="card-title"></span></div><div class="card-action"><center><b><a href="#contact"class="black-text"style="font-size:12px">Contact</a></b></center></div></div></div></div>');
 	$('#small').show();
 	}
   else
