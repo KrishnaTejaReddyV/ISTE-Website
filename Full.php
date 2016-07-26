@@ -59,7 +59,7 @@ color:black;
 <div id="footer" class="navbar-fixed" style="height:0">
 <div class="footer-outer col s12"  style="position:fixed;margin-bottom:0px">
     <span class="footer-arrow" ></span> 
-	<img id="foot-logo" src="ISTE-Logo.png" onclick="home()" style="position:fixed ; bottom:11% ; left:47.8% ; width:5%;z-index:2">
+	<img id="foot-logo" src="static/icons/ISTE-Logo.png" onclick="home()" style="position:fixed ; bottom:11% ; left:47.8% ; width:5%;z-index:2">
   </div>
 </div>
 <!--Footer ends-->
@@ -70,7 +70,7 @@ color:black;
 <!--Cards starts-->
 	<div class="parallax-container">
 		<div class="parallax">
-			<img name="back" src="a.JPG" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;">
+			<img name="back" src="static/team/a.JPG" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;">
 		</div>
 		<div class="row">
 		<div class="col s4 m2 offset-m1">
@@ -139,10 +139,10 @@ color:black;
 <div id="home" style="height:100%">
 	<div class="parallax-container">
 		<div class="parallax">
-			<img name="back" src="a.JPG" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;opacity:0.97">
+			<img name="back" src="static/team/a.JPG" style="z-index:-1;width:100%;margin-top:0;position:absolute; background-repeat:no-repeat ; background-size:100%;opacity:0.97">
 		</div>
 		<div class='circle-container'>
-				<img style="width:20%;top:50%;left:50%;position:absolute;transform:translateY(-50%) translateX(-50%)"src="ISTE-Logo.png"/>
+				<img style="width:20%;top:50%;left:50%;position:absolute;transform:translateY(-50%) translateX(-50%)"src="static/icons/ISTE-Logo.png"/>
 			<a id="5" style="z-index:5" onclick="fifth()" class="deg30" ><img src="static/icons/cu.png"></a>
 			<a id="4" style="z-index:5" onclick="fourth()" class="deg150" ><img src="static/icons/ot.png"></a>
 			<a id="3" style="z-index:5" onclick="third()" class="deg210" ><img src="static/icons/e.png"></a>
@@ -1360,9 +1360,11 @@ mysql_query($query);
 		</a>
     </div>
 	<div class="col s1">
+		<a>
 		<div class="modal-trigger" href="#y">
 		<img src="static/icons/dev.png" STYLE="position:absolute; LEFT:74%; WIDTH:130px; HEIGHT:130px">
 		</div>
+		</a>
     </div>
 	<div class="col s1">
 		<a href="http://www.twitter.com">
@@ -1370,9 +1372,11 @@ mysql_query($query);
 		</a>
     </div>
 	<div class="col s1">
+		<a>
 		<div class="modal-trigger" href="#v">
 		<img src="static/icons/mailc.png" STYLE="position:absolute; LEFT:16%; WIDTH:130px; HEIGHT:130px">
 		</div>
+		</a>
     </div>	
 	<br><br><br><br><br><br>
 </div>
