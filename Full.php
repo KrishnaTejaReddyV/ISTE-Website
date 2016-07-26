@@ -1356,7 +1356,7 @@ mysql_query($query);
 <div id="images" class="col s12" style="margin-top:120">
 	<div class="col s1">
 		<a href="https://www.facebook.com/ISTE.VIT/">
-		<img src="static/icons/fb1.png" STYLE="position:absolute; LEFT:35%; WIDTH:130px; HEIGHT:130px">
+		<img src="static/icons/fb1.png" onmouseover="this.src='static/icons/fb2.png';" onmouseout="this.src='static/icons/fb1.png'" STYLE="position:absolute; LEFT:35%; WIDTH:130px; HEIGHT:130px">
 		</a>
     </div>
 	<div class="col s1">
