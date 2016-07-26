@@ -238,18 +238,6 @@ color:black;
 							<div class="white-text"> Iste has conducted several interesting events and workshops, varying from different branches which include workshops like Tech League- Photoshop and Tronix league- LED cube and a multibranch quiz event, Brain quest. ISTE also organised an Industrial Visit to Daimler , Chennai where ISTE members along with the whole ISTE team were shown how Diamler made trucks from the scratch. They were given a whole tour of the factory. ISTE also has an outreach programme, Teach for Vellore, wherein we aid underprivileged students by guiding them for future studies .</div>
 						</div>
 					</li>
-					<!--
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span style="position:absolute; left:-45px">2011-12</span></time>
-						<div class="cbp_tmicon cbp_tmicon-earth"></div>
-						<div class="cbp_tmlabel">
-							<h4 class="white-text">Riviera'12</h4>
-							<h4 class="white-text">Gravitas'11</h4>
-							<h4 class="white-text">Other Activities</h4>
-							<p>Teach for vellore and industrial visit</p>
-						</div>
-					</li>
-					-->
 				</ul>
 			</div>
 		</div>
