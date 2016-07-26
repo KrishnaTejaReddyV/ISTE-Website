@@ -1368,7 +1368,7 @@ mysql_query($query);
     </div>
 	<div class="col s1">
 		<a href="http://www.twitter.com">
-		<img src="static/icons/twitter1.png" STYLE="position:absolute; LEFT:55%; WIDTH:130px; HEIGHT:130px">
+		<img src="static/icons/twitter1.png" onmouseover="this.src='static/icons/twitter2.png';" onmouseout="this.src='static/icons/twitter1.png'" STYLE="position:absolute; LEFT:55%; WIDTH:130px; HEIGHT:130px">
 		</a>
     </div>
 	<div class="col s1">
