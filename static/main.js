@@ -84,6 +84,10 @@ $('#rishabh').html('<img src="static/team/rishabh.jpg" style="height:100%">');
 $('#sid').html('<img src="static/team/sid.jpg" style="height:100%">');
 }
 
+function gravitas(){
+$('#Aquabot').html('<img data-u="image" src="static/posters/Aquabot.jpg">');
+}
+
 
 //When document gets ready
 $(document).ready(function(){
