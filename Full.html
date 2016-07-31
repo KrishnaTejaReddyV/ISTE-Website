@@ -19,6 +19,7 @@
 <!--Initialising javascript folders-->
 <script src="static/jquery-2.1.1.min.js"></script>
 <script src="static/jquery-2.1.1.min_2.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="static/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="static/jssor.slider.mini.js"></script>
 <script type="text/javascript" src="static/slider.js"></script>
@@ -234,7 +235,7 @@ color:black;
 		<div id="modal1" class="modal">
 		<div class="modal-content">
 		<h4><center>Register</h4><hr>
-		<form class="col s12">
+		<form id="form1" autocomplete="off" class="col s12">
 		<div class="row">
 		<div class="input-field col s12 l12">
 		<i class="large black-text prefix material-icons" style="top:10">person</i>
@@ -270,9 +271,10 @@ color:black;
 		<label for="mem">Are you an ISTE Member? (Yes/No)</label>
 		</div>
 		</div>
-		<button class="btn wave-effect wave-light black lighten-1" type="submit">Submit
+		<button id="submit" class="btn  black lighten-1" type="submit">Submit
 		<i class="material-icons right">send</i>
 		</button>
+		</div>
 		</form>
 		</div>
 		</div>
@@ -1596,7 +1598,7 @@ color:black;
 <div id="contact" class="row" style="">
 <h2 class="center black-text lighten-1" >Contact Us</h2>
 <div class="col s12">
-	<form autocomplete="off" method="" action="">
+	<form autocomplete="off" id="form2">
 	<div class="modal-content center black-text" style="position:relative;;">
 		<div class="row">
 				<div class="input-field col s8 offset-s2">
@@ -1604,16 +1606,16 @@ color:black;
 					<label for="title">Name</label>
 				</div>
 				<div class="input-field col s8 offset-s2">
-					<input type="text" id="mail" name="mail" class="validate black-text" >
-					<label for="mail">Email</label>
+					<input type="text" id="email" name="email" class="validate black-text" >
+					<label for="email">Email</label>
 				</div>
 				<div class="input-field col s8 offset-s2">
-					<textarea id="blog" name="content" class="materialize-textarea black-text"></textarea>
-					<label for="blog">Message</label>
+					<textarea id="message" name="message" class="materialize-textarea black-text"></textarea>
+					<label for="message">Message</label>
 				</div>
 		</div>
 		<div class="row">
-			<button class="btn waves-effect waves-light col l1 s2 white-text black lighten-1" type="submit" name="action" style="margin-left:46%">Submit</button>
+			<button id="submit2" class="btn col l1 s2 white-text black lighten-1" type="submit" name="action" style="margin-left:46%">Submit</button>
 		</div>
 	</div>
 	</form>

@@ -105,6 +105,72 @@ $('#UE').html('<<img data-u="image" src="static/posters/UE.jpg" />');
 //When document gets ready
 $(document).ready(function(){
 
+
+		//register form submit
+		$("#submit").click(function() {
+		var name = $("#n").val();
+		var reg = $("#reg").val();
+		var mob = $("#mob").val();
+		var mail = $("#mail").val();
+		var mem = $("#mem").val();
+		var dataString = 'n='+ name + '&reg='+ reg + '&mob='+ mob + '&mail='+ mail + '&mem='+ mem;
+
+		if(name=='' || reg=='' || mob=='' || mail=='' || mem=='')
+		{
+		alert("Please Fill All Fields");
+		}
+		else
+		{
+		$.ajax({
+		type: "POST",
+		url: "register.php",
+		data: dataString,
+		success: function(){
+		alert("Registration Successfull!!");
+		$('#modal1').closeModal();
+		},
+		error: function(){
+		alert("Registration Failed");
+		}
+		});
+		}
+		return false;
+		});
+
+
+
+
+		//contact form submit
+		$("#submit2").click(function() {
+		var name = $("#title").val();
+		var mail = $("#email").val();
+		var message = $("#message").val();
+		var dataString = 'title='+ name + '&mail='+ mail + '&message='+ message;
+
+		if(name=='' || mail=='' || message=='')
+		{
+		alert("Please Fill All Fields");
+		}
+		else
+		{
+		$.ajax({
+		type: "POST",
+		url: "contact.php",
+		data: dataString,
+		success: function(){
+		alert("Thank you for Contacting Us!!!!");
+		document.getElementById("form2").reset()
+		},
+		error: function(){
+		alert("Failed");
+		}
+		});
+		}
+		return false;
+		});
+
+
+
 	//Responsive
 	if($(window).width()<1200)
 	{
