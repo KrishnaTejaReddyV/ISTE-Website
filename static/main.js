@@ -85,7 +85,7 @@ $('#sid').html('<img src="static/team/sid.jpg" style="height:100%">');
 }
 
 function gravitas(){
-$('#Aquabot').html('<a class="modal-trigger" href="#modal3"><img data-u="image" src="static/posters/Aquabot.jpg" /></a><img data-u="thumb" src="static/posters/Aquabot.jpg" />');
+$('#Aquabot').html('<img data-u="image" src="static/posters/Aquabot.jpg" />');
 }
 
 
