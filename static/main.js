@@ -86,6 +86,19 @@ $('#sid').html('<img src="static/team/sid.jpg" style="height:100%">');
 
 function gravitas(){
 $('#Aquabot').html('<img data-u="image" src="static/posters/Aquabot.jpg" />');
+$('#Artificial').html('<img data-u="image" src="static/posters/Artificial.jpg" />');
+$('#Augmented').html('<img data-u="image" src="static/posters/Augmented.jpg" />');
+$('#Cloud').html('<img data-u="image" src="static/posters/CloudComputing.jpg" />');
+$('#Code').html('<img data-u="image" src="static/posters/Code-a-thon.jpg" />');
+$('#Dimensions').html('<img data-u="image" src="static/posters/Dimensions.jpg" />');
+$('#HF').html('<img data-u="image" src="static/posters/HF.jpg" />');
+$('#Imp').html('<img data-u="image" src="static/posters/Impedence.jpg" />');
+$('#Robotix').html('<img data-u="image" src="static/posters/Robotix.jpg" />');
+$('#Robogpp').html('<img data-u="image" src="static/posters/Robogpp.jpg" />');
+$('#Stock').html('<img data-u="image" src="static/posters/Stockgyaam.jpg" />');
+$('#TAR').html('<img data-u="image" src="static/posters/TAR.jpg" />');
+$('#TD').html('<img data-u="image" src="static/posters/TD.jpg" />');
+$('#UE').html('<<img data-u="image" src="static/posters/UE.jpg" />');
 }
 
 
