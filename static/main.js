@@ -104,7 +104,6 @@ $('#UE').html('<<img data-u="image" src="static/posters/UE.jpg" />');
 function riviera()
 {
 $('#race').html('<img data-u="image" src="static/posters/race.jpg" />');
-$('#racemod').html('<a id="race" class="modal-trigger" href="#modal17"></a>');
 $('#bird').html('<img data-u="image" src="static/posters/bird.jpg" />');
 $('#prison').html('<img data-u="image" src="static/posters/prison.jpg" />');
 $('#foosball').html('<img data-u="image" src="static/posters/foosball.jpg" />');	
