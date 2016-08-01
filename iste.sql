@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 25, 2016 at 09:41 PM
+-- Generation Time: Aug 01, 2016 at 08:56 PM
 -- Server version: 5.6.24
 -- PHP Version: 5.5.24
 
@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS `contact` (
 --
 
 CREATE TABLE IF NOT EXISTS `register` (
+  `EventName` varchar(50) NOT NULL,
   `Name` varchar(50) DEFAULT NULL,
   `RegistrationNumber` varchar(50) DEFAULT NULL,
   `MobileNumber` int(50) DEFAULT NULL,
