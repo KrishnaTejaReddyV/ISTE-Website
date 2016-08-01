@@ -101,6 +101,13 @@ $('#TD').html('<img data-u="image" src="static/posters/TD.jpg" />');
 $('#UE').html('<<img data-u="image" src="static/posters/UE.jpg" />');
 }
 
+function riviera()
+{
+$('#race').html('<img data-u="image" src="static/posters/race.jpg" />');
+$('#bird').html('<img data-u="image" src="static/posters/bird.jpg" />');
+$('#prison').html('<img data-u="image" src="static/posters/prison.jpg" />');
+$('#foosball').html('<img data-u="image" src="static/posters/foosball.jpg" />');	
+}
 
 //When document gets ready
 $(document).ready(function(){
