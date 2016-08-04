@@ -39,14 +39,17 @@ $(window).resize(function(){
   if($(window).width()<500)
   {
     $('#foot-logo').css('width', '30px').css('left', '45.8%').css('bottom', '13%');
+	$('.nav-text').css('font-size','10px');
   }
   else if($(window).width()<700)
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '13%');
+	$('.nav-text').css('font-size','15px');	
   }
   else
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '11%');
+	$('.nav-text').css('font-size','20px');	
   }
 });
 
@@ -194,14 +197,17 @@ $(document).ready(function(){
   if($(window).width()<500)
   {
     $('#foot-logo').css('width', '30px').css('left', '45.8%').css('bottom', '13%');
+	$('.nav-text').css('font-size','10px');	
   }
   else if($(window).width()<700)
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '13%');
+	$('.nav-text').css('font-size','15px');	
   }
   else
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '11%');
+	$('.nav-text').css('font-size','20px');	
   }
 
 
