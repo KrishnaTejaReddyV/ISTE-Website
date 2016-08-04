@@ -85,28 +85,28 @@ $('#sid').html('<img src="static/team/sid.jpg" style="height:100%">');
 }
 
 function gravitas(){
-$('#Aquabot').html('<img data-u="image" src="static/posters/Aquabot.jpg" />');
-$('#Artificial').html('<img data-u="image" src="static/posters/Artificial.jpg" />');
-$('#Augmented').html('<img data-u="image" src="static/posters/Augmented.jpg" />');
-$('#Cloud').html('<img data-u="image" src="static/posters/CloudComputing.jpg" />');
-$('#Code').html('<img data-u="image" src="static/posters/Code-a-thon.jpg" />');
-$('#Dimensions').html('<img data-u="image" src="static/posters/Dimensions.jpg" />');
-$('#HF').html('<img data-u="image" src="static/posters/HF.jpg" />');
-$('#Imp').html('<img data-u="image" src="static/posters/Impedence.jpg" />');
-$('#Robotix').html('<img data-u="image" src="static/posters/Robotix.jpg" />');
-$('#Robogpp').html('<img data-u="image" src="static/posters/Robogpp.jpg" />');
-$('#Stock').html('<img data-u="image" src="static/posters/Stockgyaam.jpg" />');
-$('#TAR').html('<img data-u="image" src="static/posters/TAR.jpg" />');
-$('#TD').html('<img data-u="image" src="static/posters/TD.jpg" />');
-$('#UE').html('<<img data-u="image" src="static/posters/UE.jpg" />');
+$('#Aquabot').html('<img src="static/posters/Aquabot.jpg" style="height:100%;width:100%" />');
+$('#Artificial').html('<img src="static/posters/Artificial.jpg" style="height:100%;width:100%" />');
+$('#Augmented').html('<img src="static/posters/Augmented.jpg" style="height:100%;width:100%" />');
+$('#Cloud').html('<img src="static/posters/CloudComputing.jpg" style="height:100%;width:100%" />');
+$('#Code').html('<img src="static/posters/Code-a-thon.jpg" style="height:100%;width:100%" />');
+$('#Dimensions').html('<img src="static/posters/Dimensions.jpg" style="height:100%;width:100%" />');
+$('#HF').html('<img src="static/posters/HF.jpg" style="height:100%;width:100%" />');
+$('#Imp').html('<img src="static/posters/Impedence.jpg" style="height:100%;width:100%" />');
+$('#Robotix').html('<img src="static/posters/Robotix.jpg" style="height:100%;width:100%" />');
+$('#Robogpp').html('<img src="static/posters/Robogpp.jpg" style="height:100%;width:100%" />');
+$('#Stock').html('<img src="static/posters/Stockgyaam.jpg" style="height:100%;width:100%" />');
+$('#TAR').html('<img src="static/posters/TAR.jpg" style="height:100%;width:100%" />');
+$('#TD').html('<img src="static/posters/TD.jpg" style="height:100%;width:100%" />');
+$('#UE').html('<img src="static/posters/UE.jpg" style="height:100%;width:100%" />');
 }
 
 function riviera()
 {
-$('#race').html('<img data-u="image" src="static/posters/race.jpg" />');
-$('#bird').html('<img data-u="image" src="static/posters/bird.jpg" />');
-$('#prison').html('<img data-u="image" src="static/posters/prison.jpg" />');
-$('#foosball').html('<img data-u="image" src="static/posters/foosball.jpg" />');	
+$('#race').html('<img src="static/posters/race.jpg" style="height:100%;width:100%" />');
+$('#bird').html('<img src="static/posters/bird.jpg" style="height:100%;width:100%" />');
+$('#prison').html('<img src="static/posters/prison.jpg" style="height:100%;width:100%" />');
+$('#foosball').html('<img src="static/posters/foosball.jpg" style="height:100%;width:100%" />');	
 }
 
 //When document gets ready
