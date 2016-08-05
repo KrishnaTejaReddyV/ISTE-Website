@@ -145,5 +145,25 @@
             $(window).bind("orientationchange", ScaleSlider4);
             //responsive code end
 			
+			var jssor_5_slider = new $JssorSlider$("jssor_5", jssor_1_options);
+            
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider5() {
+                var refSize1 = jssor_5_slider.$Elmt.parentNode.clientWidth;
+                if (refSize1) {
+                    refSize1 = Math.min(refSize1, 800);
+                    jssor_5_slider.$ScaleWidth(refSize1);
+                }
+                else {
+                    window.setTimeout(ScaleSlider5, 30);
+                }
+            }
+            ScaleSlider4();
+            $(window).bind("load", ScaleSlider5);
+            $(window).bind("resize", ScaleSlider5);
+            $(window).bind("orientationchange", ScaleSlider4);
+            //responsive code end
+			
 			
         });
