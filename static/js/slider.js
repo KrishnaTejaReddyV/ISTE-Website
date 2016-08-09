@@ -145,7 +145,7 @@
             $(window).bind("orientationchange", ScaleSlider4);
             //responsive code end
 			
-			var jssor_5_slider = new $JssorSlider$("jssor_5", jssor_1_options);
+			var jssor_5_slider = new $JssorSlider$("jssor_5", jssor_2_options);
             
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizing
@@ -159,10 +159,10 @@
                     window.setTimeout(ScaleSlider5, 30);
                 }
             }
-            ScaleSlider4();
+            ScaleSlider5();
             $(window).bind("load", ScaleSlider5);
             $(window).bind("resize", ScaleSlider5);
-            $(window).bind("orientationchange", ScaleSlider4);
+            $(window).bind("orientationchange", ScaleSlider5);
             //responsive code end
 			
 			
