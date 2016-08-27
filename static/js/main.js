@@ -45,11 +45,13 @@ $(window).resize(function(){
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '13%');
 	$('.nav-text').css('font-size','15px');	
+	$('#images').hide();
   }
   else
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '11%');
 	$('.nav-text').css('font-size','20px');	
+	$('#images').show();
   }
 });
 
@@ -152,32 +154,52 @@ $(document).ready(function(){
 
 		//contact form submit
 		$("#submit2").click(function() {
-		var name = $("#title").val();
-		var mail = $("#email").val();
-		var message = $("#message").val();
-		var dataString = 'title='+ name + '&mail='+ mail + '&message='+ message;
-
-		if(name=='' || mail=='' || message=='')
-		{
+		document.getElementById('form2').submit();
+		var name=$("#title").val();
+		var mail=$("#email").val();
+		var message=$("#message").val();
+		var dataString='title='+name+'&mail='+mail+'&message='+message;
+		if(name==''||mail==''||message==''){
 		alert("Please Fill All Fields");
 		}
-		else
-		{
+		else{
 		$.ajax({
-		type: "POST",
-		url: "contact.php",
-		data: dataString,
-		success: function(){
+		type:"POST",
+		url:"contact.php",
+		data:dataString,
+		success:function(){
 		alert("Thank you for Contacting Us!!!!");
-		document.getElementById("form2").reset()
+		document.getElementById("form2").reset();
 		},
-		error: function(){
-		alert("Failed");
-		}
+		error:function(){
+		alert("Failed");}})}
+		return false;
+		
 		});
+		
+		/*
+		$("#submit2").click(function()
+		{var name=$("#title").val();
+		var mail=$("#email").val();
+		var message=$("#message").val();
+		var dataString='title='+name+'&mail='+mail+'&message='+message;
+		if(name==''||mail==''||message==''){
+		alert("Please Fill All Fields");
 		}
+		else{
+		$.ajax({
+		type:"POST",
+		url:"contact.php",
+		data:dataString,
+		success:function(){
+		alert("Thank you for Contacting Us!!!!");
+		document.getElementById("form2").reset();
+		},
+		error:function(){
+		alert("Failed");}})}
 		return false;
 		});
+		*/
 
 
 
@@ -203,11 +225,13 @@ $(document).ready(function(){
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '13%');
 	$('.nav-text').css('font-size','15px');	
+	$('#images').hide();
   }
   else
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '11%');
 	$('.nav-text').css('font-size','20px');	
+	$('#images').show();
   }
 
 
