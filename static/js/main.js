@@ -78,13 +78,13 @@ $('#sagar').html('<img src="static/team/sagar.jpg" style="height:100%">');
 
 function board(){
 $('#teja').html('<img src="static/team/teja.jpg" style="height:100%">');
-$('#anujay').html('<img src="static/team/anujay.jpg" style="height:100%">');
-$('#ankita').html('<img src="static/team/ankita.jpg" style="height:100%">');
+$('#anujay').html('<img src="static/team/anujay.JPG" style="height:100%">');
+$('#ankita').html('<img src="static/team/ankita.JPG" style="height:100%">');
 $('#kinnri').html('<img src="static/team/kinnri.jpg" style="height:100%">');
 $('#hari').html('<img src="static/team/hari.jpg" style="height:100%">');
 $('#ashay').html('<img src="static/team/ashay.JPG" style="height:100%">');
-$('#poroma').html('<img src="static/team/poroma.jpg" style="height:100%">');
-$('#gargi').html('<img src="static/team/gargi.jpg" style="height:100%">');
+$('#poroma').html('<img src="static/team/poroma.JPG" style="height:100%">');
+$('#gargi').html('<img src="static/team/gargi.JPG" style="height:100%">');
 $('#rishabh').html('<img src="static/team/rishabh.jpg" style="height:100%">');
 $('#sid').html('<img src="static/team/sid.jpg" style="height:100%">');
 }
