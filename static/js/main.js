@@ -154,7 +154,6 @@ $(document).ready(function(){
 
 		//contact form submit
 		$("#submit2").click(function() {
-		document.getElementById('form2').submit();
 		var name=$("#title").val();
 		var mail=$("#email").val();
 		var message=$("#message").val();
@@ -168,7 +167,7 @@ $(document).ready(function(){
 		url:"contact.php",
 		data:dataString,
 		success:function(){
-		alert("Thank you for Contacting Us!!!!");
+		document.getElementById('form2').submit();
 		document.getElementById("form2").reset();
 		},
 		error:function(){
