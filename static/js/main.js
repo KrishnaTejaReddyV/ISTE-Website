@@ -70,7 +70,7 @@ $('#ria').html('<img src="static/team/ria.jpg" style="height:100%">');
 $('#ritika').html('<img src="static/team/ritika.jpg" style="height:100%">');
 $('#ud').html('<img src="static/team/ud.jpg" style="height:100%">');
 $('#vaibhav').html('<img src="static/team/vaibhav.jpg" style="height:100%">');
-$('#vaishnavi').html('<img src="static/team/vaishnavi.jpg" style="height:100%">');
+$('#vaishnavi').html('<img src="static/team/vaishnavi.JPG" style="height:100%">');
 $('#vishu').html('<img src="static/team/vishu.jpg" style="height:100%">');
 $('#yash').html('<img src="static/team/yash.jpg" style="height:100%">');
 $('#sagar').html('<img src="static/team/sagar.jpg" style="height:100%">');
@@ -78,13 +78,13 @@ $('#sagar').html('<img src="static/team/sagar.jpg" style="height:100%">');
 
 function board(){
 $('#teja').html('<img src="static/team/teja.jpg" style="height:100%">');
-$('#anujay').html('<img src="static/team/anujay.jpg" style="height:100%">');
-$('#ankita').html('<img src="static/team/ankita.jpg" style="height:100%">');
+$('#anujay').html('<img src="static/team/anujay.JPG" style="height:100%">');
+$('#ankita').html('<img src="static/team/ankita.JPG" style="height:100%">');
 $('#kinnri').html('<img src="static/team/kinnri.jpg" style="height:100%">');
 $('#hari').html('<img src="static/team/hari.jpg" style="height:100%">');
-$('#ashay').html('<img src="static/team/ashay.jpg" style="height:100%">');
-$('#poroma').html('<img src="static/team/poroma.jpg" style="height:100%">');
-$('#gargi').html('<img src="static/team/gargi.jpg" style="height:100%">');
+$('#ashay').html('<img src="static/team/ashay.JPG" style="height:100%">');
+$('#poroma').html('<img src="static/team/poroma.JPG" style="height:100%">');
+$('#gargi').html('<img src="static/team/gargi.JPG" style="height:100%">');
 $('#rishabh').html('<img src="static/team/rishabh.jpg" style="height:100%">');
 $('#sid').html('<img src="static/team/sid.jpg" style="height:100%">');
 }
@@ -100,7 +100,7 @@ $('#HF').html('<img src="static/posters/HF.jpg" style="height:100%;width:100%" /
 $('#Imp').html('<img src="static/posters/Impedence.jpg" style="height:100%;width:100%" />');
 $('#Robotix').html('<img src="static/posters/Robotix.jpg" style="height:100%;width:100%" />');
 $('#Robogpp').html('<img src="static/posters/Robogpp.jpg" style="height:100%;width:100%" />');
-$('#Stock').html('<img src="static/posters/Stockgyaam.jpg" style="height:100%;width:100%" />');
+$('#Stock').html('<img src="static/posters/StockGyaam.jpg" style="height:100%;width:100%" />');
 $('#TAR').html('<img src="static/posters/TAR.jpg" style="height:100%;width:100%" />');
 $('#TD').html('<img src="static/posters/TD.jpg" style="height:100%;width:100%" />');
 $('#UE').html('<img src="static/posters/UE.jpg" style="height:100%;width:100%" />');
