@@ -35,23 +35,89 @@ $(window).resize(function(){
 	$('#small').hide();
 	}
 	
-	
-  if($(window).width()<500)
+  if($(window).width()<400)
   {
     $('#foot-logo').css('width', '30px').css('left', '45.8%').css('bottom', '13%');
-	$('.nav-text').css('font-size','10px');
+	$('.nav-text').css('font-size','17px');
+	$('.head').css('font-size','35px');	
+	$('#images').hide();
+	$('#up_tab').html('Upcoming');
+	$('#up_tab').css('font-size','15px');
+	$('#pre_tab').html('Premium');
+	$('#pre_tab').css('font-size','15px');
+	$('#week_tab').html('Weekly');
+	$('#week_tab').css('font-size','15px');
+	$('#gra_tab').html("graVITas");
+	$('#gra_tab').css('font-size','15px');
+	$('#riv_tab').html("Riviera");
+	$('#riv_tab').css('font-size','15px');
+	$('#fac_tab').html('Faculty');
+	$('#fac_tab').css('font-size','15px');
+	$('#board_tab').html('Board');
+	$('#board_tab').css('font-size','15px');
+	$('#core_tab').html('Core');
+	$('#core_tab').css('font-size','15px');
+  }	
+  else if($(window).width()<500)
+  {
+    $('#foot-logo').css('width', '30px').css('left', '47.8%').css('bottom', '13%');
+	$('.nav-text').css('font-size','17px');
+	$('.head').css('font-size','35px');	
+	$('#images').hide();
+	$('#up_tab').html('Upcoming');
+	$('#up_tab').css('font-size','15px');
+	$('#pre_tab').html('Premium');
+	$('#pre_tab').css('font-size','15px');
+	$('#week_tab').html('Weekly');
+	$('#week_tab').css('font-size','15px');
+	$('#gra_tab').html("graVITas");
+	$('#gra_tab').css('font-size','15px');
+	$('#riv_tab').html("Riviera");
+	$('#riv_tab').css('font-size','15px');
+	$('#fac_tab').html('Faculty');
+	$('#fac_tab').css('font-size','15px');
+	$('#board_tab').html('Board');
+	$('#board_tab').css('font-size','15px');
+	$('#core_tab').html('Core');
+	$('#core_tab').css('font-size','15px');
   }
   else if($(window).width()<700)
   {
-    $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '13%');
-	$('.nav-text').css('font-size','15px');	
+    $('#foot-logo').css('width', '5%').css('left', '46.6%').css('bottom', '13%');
+	$('.nav-text').css('font-size','20px');	
+	$('.head').css('font-size','60px');	
 	$('#images').hide();
+	$('#up_tab').html('Upcoming');
+	$('#pre_tab').html('Premium');
+	$('#week_tab').html('Weekly');
+	$('#gra_tab').html("graVITas'15");
+	$('#riv_tab').html("Riviera'16");
+	$('#fac_tab').html('Faculty');
+	$('#board_tab').html('Board');
+	$('#core_tab').html('Core');
   }
   else
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '11%');
 	$('.nav-text').css('font-size','20px');	
+	$('.head').css('font-size','60px');	
 	$('#images').show();
+	$('#up_tab').html('Upcoming Events');
+	$('#up_tab').css('font-size','18px');
+	$('#pre_tab').html('Premium Events');
+	$('#pre_tab').css('font-size','18px');
+	$('#week_tab').html('Weekly Events');
+	$('#week_tab').css('font-size','18px');
+	$('#gra_tab').html("graVITas'15");
+	$('#gra_tab').css('font-size','18px');
+	$('#riv_tab').html("Riviera'16");
+	$('#riv_tab').css('font-size','18px');
+	$('#fac_tab').html('Faculty Coordinator');
+	$('#fac_tab').css('font-size','18px');
+	$('#board_tab').html('Board Members');
+	$('#board_tab').css('font-size','18px');
+	$('#core_tab').html('Core Members');
+	$('#core_tab').css('font-size','18px');
   }
 });
 
@@ -70,7 +136,7 @@ $('#ria').html('<img src="static/team/ria.jpg" style="height:100%">');
 $('#ritika').html('<img src="static/team/ritika.jpg" style="height:100%">');
 $('#ud').html('<img src="static/team/ud.jpg" style="height:100%">');
 $('#vaibhav').html('<img src="static/team/vaibhav.jpg" style="height:100%">');
-$('#vaishnavi').html('<img src="static/team/vaishnavi.JPG" style="height:100%">');
+$('#vaishnavi').html('<img src="static/team/vaishnavi.jpg" style="height:100%">');
 $('#vishu').html('<img src="static/team/vishu.jpg" style="height:100%">');
 $('#yash').html('<img src="static/team/yash.jpg" style="height:100%">');
 $('#sagar').html('<img src="static/team/sagar.jpg" style="height:100%">');
@@ -78,13 +144,13 @@ $('#sagar').html('<img src="static/team/sagar.jpg" style="height:100%">');
 
 function board(){
 $('#teja').html('<img src="static/team/teja.jpg" style="height:100%">');
-$('#anujay').html('<img src="static/team/anujay.JPG" style="height:100%">');
-$('#ankita').html('<img src="static/team/ankita.JPG" style="height:100%">');
+$('#anujay').html('<img src="static/team/anujay.jpg" style="height:100%">');
+$('#ankita').html('<img src="static/team/ankita.jpg" style="height:100%">');
 $('#kinnri').html('<img src="static/team/kinnri.jpg" style="height:100%">');
 $('#hari').html('<img src="static/team/hari.jpg" style="height:100%">');
-$('#ashay').html('<img src="static/team/ashay.JPG" style="height:100%">');
-$('#poroma').html('<img src="static/team/poroma.JPG" style="height:100%">');
-$('#gargi').html('<img src="static/team/gargi.JPG" style="height:100%">');
+$('#ashay').html('<img src="static/team/ashay.jpg" style="height:100%">');
+$('#poroma').html('<img src="static/team/poroma.jpg" style="height:100%">');
+$('#gargi').html('<img src="static/team/gargi.jpg" style="height:100%">');
 $('#rishabh').html('<img src="static/team/rishabh.jpg" style="height:100%">');
 $('#sid').html('<img src="static/team/sid.jpg" style="height:100%">');
 }
@@ -215,22 +281,89 @@ $(document).ready(function(){
 	$('#small').hide();
 	}
 	
-  if($(window).width()<500)
+  if($(window).width()<400)
   {
     $('#foot-logo').css('width', '30px').css('left', '45.8%').css('bottom', '13%');
-	$('.nav-text').css('font-size','10px');	
+	$('.nav-text').css('font-size','17px');
+	$('.head').css('font-size','35px');	
+	$('#images').hide();
+	$('#up_tab').html('Upcoming');
+	$('#up_tab').css('font-size','15px');
+	$('#pre_tab').html('Premium');
+	$('#pre_tab').css('font-size','15px');
+	$('#week_tab').html('Weekly');
+	$('#week_tab').css('font-size','15px');
+	$('#gra_tab').html("graVITas");
+	$('#gra_tab').css('font-size','15px');
+	$('#riv_tab').html("Riviera");
+	$('#riv_tab').css('font-size','15px');
+	$('#fac_tab').html('Faculty');
+	$('#fac_tab').css('font-size','15px');
+	$('#board_tab').html('Board');
+	$('#board_tab').css('font-size','15px');
+	$('#core_tab').html('Core');
+	$('#core_tab').css('font-size','15px');
+  }	
+  else if($(window).width()<500)
+  {
+    $('#foot-logo').css('width', '30px').css('left', '47.8%').css('bottom', '13%');
+	$('.nav-text').css('font-size','17px');
+	$('.head').css('font-size','35px');	
+	$('#images').hide();
+	$('#up_tab').html('Upcoming');
+	$('#up_tab').css('font-size','15px');
+	$('#pre_tab').html('Premium');
+	$('#pre_tab').css('font-size','15px');
+	$('#week_tab').html('Weekly');
+	$('#week_tab').css('font-size','15px');
+	$('#gra_tab').html("graVITas");
+	$('#gra_tab').css('font-size','15px');
+	$('#riv_tab').html("Riviera");
+	$('#riv_tab').css('font-size','15px');
+	$('#fac_tab').html('Faculty');
+	$('#fac_tab').css('font-size','15px');
+	$('#board_tab').html('Board');
+	$('#board_tab').css('font-size','15px');
+	$('#core_tab').html('Core');
+	$('#core_tab').css('font-size','15px');
   }
   else if($(window).width()<700)
   {
-    $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '13%');
-	$('.nav-text').css('font-size','15px');	
+    $('#foot-logo').css('width', '5%').css('left', '46.6%').css('bottom', '13%');
+	$('.nav-text').css('font-size','20px');	
+	$('.head').css('font-size','60px');	
 	$('#images').hide();
+	$('#up_tab').html('Upcoming');
+	$('#pre_tab').html('Premium');
+	$('#week_tab').html('Weekly');
+	$('#gra_tab').html("graVITas'15");
+	$('#riv_tab').html("Riviera'16");
+	$('#fac_tab').html('Faculty');
+	$('#board_tab').html('Board');
+	$('#core_tab').html('Core');
   }
   else
   {
     $('#foot-logo').css('width', '5%').css('left', '47.8%').css('bottom', '11%');
 	$('.nav-text').css('font-size','20px');	
+	$('.head').css('font-size','60px');	
 	$('#images').show();
+	$('#up_tab').html('Upcoming Events');
+	$('#up_tab').css('font-size','18px');
+	$('#pre_tab').html('Premium Events');
+	$('#pre_tab').css('font-size','18px');
+	$('#week_tab').html('Weekly Events');
+	$('#week_tab').css('font-size','18px');
+	$('#gra_tab').html("graVITas'15");
+	$('#gra_tab').css('font-size','18px');
+	$('#riv_tab').html("Riviera'16");
+	$('#riv_tab').css('font-size','18px');
+	$('#fac_tab').html('Faculty Coordinator');
+	$('#fac_tab').css('font-size','18px');
+	$('#board_tab').html('Board Members');
+	$('#board_tab').css('font-size','18px');
+	$('#core_tab').html('Core Members');
+	$('#core_tab').css('font-size','18px');
   }
 
 
