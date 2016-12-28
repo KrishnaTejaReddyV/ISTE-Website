@@ -37,59 +37,72 @@ $(window).resize(function(){
 	
   if($(window).width()<400)
   {
-    $('#foot-logo').css('width', '30px').css('left', '45.8%').css('bottom', '13%');
-	$('.nav-text').css('font-size','17px');
+    $('#foot-logo').css('width', '30px').css('left', '45.5%').css('bottom', '14.5%');
+	$('.nav-text').css('font-size','15px');
 	$('.head').css('font-size','35px');	
 	$('#images').hide();
+	$('#up_tab').click();
 	$('#up_tab').html('Upcoming');
-	$('#up_tab').css('font-size','15px');
+	$('#up_tab').css('font-size','12px');
 	$('#pre_tab').html('Premium');
-	$('#pre_tab').css('font-size','15px');
-	$('#week_tab').html('Weekly');
-	$('#week_tab').css('font-size','15px');
+	$('#pre_tab').css('font-size','12px');
+	$('#week_tabs').hide();
+	$('#week_tabs').html("");
+	$('#weekly').hide();
 	$('#gra_tab').html("graVITas");
-	$('#gra_tab').css('font-size','15px');
+	$('#gra_tab').css('font-size','12px');
 	$('#riv_tab').html("Riviera");
-	$('#riv_tab').css('font-size','15px');
+	$('#riv_tab').css('font-size','12px');
 	$('#fac_tab').html('Faculty');
-	$('#fac_tab').css('font-size','15px');
+	$('#fac_tab').css('font-size','12px');
 	$('#board_tab').html('Board');
-	$('#board_tab').css('font-size','15px');
+	$('#board_tab').css('font-size','12px');
 	$('#core_tab').html('Core');
-	$('#core_tab').css('font-size','15px');
+	$('#core_tab').css('font-size','12px');
   }	
   else if($(window).width()<500)
   {
-    $('#foot-logo').css('width', '30px').css('left', '47.8%').css('bottom', '13%');
-	$('.nav-text').css('font-size','17px');
+    $('#foot-logo').css('width', '30px').css('left', '47%').css('bottom', '14.5%');
+	$('.nav-text').css('font-size','15px');
 	$('.head').css('font-size','35px');	
 	$('#images').hide();
+	$('#up_tab').click();
 	$('#up_tab').html('Upcoming');
-	$('#up_tab').css('font-size','15px');
+	$('#up_tab').css('font-size','12px');
 	$('#pre_tab').html('Premium');
-	$('#pre_tab').css('font-size','15px');
-	$('#week_tab').html('Weekly');
-	$('#week_tab').css('font-size','15px');
+	$('#pre_tab').css('font-size','12px');
+	$('#week_tabs').hide();
+	$('#week_tabs').html("");
+	$('#weekly').hide();
 	$('#gra_tab').html("graVITas");
-	$('#gra_tab').css('font-size','15px');
+	$('#gra_tab').css('font-size','12px');
 	$('#riv_tab').html("Riviera");
-	$('#riv_tab').css('font-size','15px');
+	$('#riv_tab').css('font-size','12px');
 	$('#fac_tab').html('Faculty');
-	$('#fac_tab').css('font-size','15px');
+	$('#fac_tab').css('font-size','12px');
 	$('#board_tab').html('Board');
-	$('#board_tab').css('font-size','15px');
+	$('#board_tab').css('font-size','12px');
 	$('#core_tab').html('Core');
-	$('#core_tab').css('font-size','15px');
+	$('#core_tab').css('font-size','12px');
   }
   else if($(window).width()<700)
   {
-    $('#foot-logo').css('width', '5%').css('left', '46.6%').css('bottom', '13%');
+    $('#foot-logo').css('width', '5%').css('left', '47.5%').css('bottom', '14%');
 	$('.nav-text').css('font-size','20px');	
 	$('.head').css('font-size','60px');	
 	$('#images').hide();
+	$('#up_tab').click();
 	$('#up_tab').html('Upcoming');
 	$('#pre_tab').html('Premium');
+	$('#week_tabs').show();
+	$('#week_tabs').html('<li class="tab col s12"><a id="week_tab" href="#weekly" class="black-text lighten-1"></a></li>');
 	$('#week_tab').html('Weekly');
+	$('#weekly').hide();
+	$('#week_tabs').click(function(){
+	$('#week_tab').click();
+	$('#weekly').show();	
+	});
+	$('#week_tab').css('font-size','16px');
 	$('#gra_tab').html("graVITas'15");
 	$('#riv_tab').html("Riviera'16");
 	$('#fac_tab').html('Faculty');
@@ -102,11 +115,18 @@ $(window).resize(function(){
 	$('.nav-text').css('font-size','20px');	
 	$('.head').css('font-size','60px');	
 	$('#images').show();
+	$('#up_tab').click();
 	$('#up_tab').html('Upcoming Events');
 	$('#up_tab').css('font-size','18px');
 	$('#pre_tab').html('Premium Events');
 	$('#pre_tab').css('font-size','18px');
+	$('#week_tabs').show();
+	$('#week_tabs').html('<li class="tab col s12"><a id="week_tab" href="#weekly" class="black-text lighten-1"></a></li>');
 	$('#week_tab').html('Weekly Events');
+	$('#weekly').hide();
+	$('#week_tabs').click(function(){
+	$('#weekly').show();	
+	});
 	$('#week_tab').css('font-size','18px');
 	$('#gra_tab').html("graVITas'15");
 	$('#gra_tab').css('font-size','18px');
@@ -283,59 +303,72 @@ $(document).ready(function(){
 	
   if($(window).width()<400)
   {
-    $('#foot-logo').css('width', '30px').css('left', '45.8%').css('bottom', '13%');
-	$('.nav-text').css('font-size','17px');
+    $('#foot-logo').css('width', '30px').css('left', '45.5%').css('bottom', '14.5%');
+	$('.nav-text').css('font-size','15px');
 	$('.head').css('font-size','35px');	
 	$('#images').hide();
+	$('#up_tab').click();
 	$('#up_tab').html('Upcoming');
-	$('#up_tab').css('font-size','15px');
+	$('#up_tab').css('font-size','12px');
 	$('#pre_tab').html('Premium');
-	$('#pre_tab').css('font-size','15px');
-	$('#week_tab').html('Weekly');
-	$('#week_tab').css('font-size','15px');
+	$('#pre_tab').css('font-size','12px');
+	$('#week_tabs').hide();
+	$('#week_tabs').html("");
+	$('#weekly').hide();
 	$('#gra_tab').html("graVITas");
-	$('#gra_tab').css('font-size','15px');
+	$('#gra_tab').css('font-size','12px');
 	$('#riv_tab').html("Riviera");
-	$('#riv_tab').css('font-size','15px');
+	$('#riv_tab').css('font-size','12px');
 	$('#fac_tab').html('Faculty');
-	$('#fac_tab').css('font-size','15px');
+	$('#fac_tab').css('font-size','12px');
 	$('#board_tab').html('Board');
-	$('#board_tab').css('font-size','15px');
+	$('#board_tab').css('font-size','12px');
 	$('#core_tab').html('Core');
-	$('#core_tab').css('font-size','15px');
+	$('#core_tab').css('font-size','12px');
   }	
   else if($(window).width()<500)
   {
-    $('#foot-logo').css('width', '30px').css('left', '47.8%').css('bottom', '13%');
-	$('.nav-text').css('font-size','17px');
+    $('#foot-logo').css('width', '30px').css('left', '47%').css('bottom', '14.5%');
+	$('.nav-text').css('font-size','15px');
 	$('.head').css('font-size','35px');	
 	$('#images').hide();
+	$('#up_tab').click();
 	$('#up_tab').html('Upcoming');
-	$('#up_tab').css('font-size','15px');
+	$('#up_tab').css('font-size','12px');
 	$('#pre_tab').html('Premium');
-	$('#pre_tab').css('font-size','15px');
-	$('#week_tab').html('Weekly');
-	$('#week_tab').css('font-size','15px');
+	$('#pre_tab').css('font-size','12px');
+	$('#week_tabs').hide();
+	$('#week_tabs').html("");
+	$('#weekly').hide();
 	$('#gra_tab').html("graVITas");
-	$('#gra_tab').css('font-size','15px');
+	$('#gra_tab').css('font-size','12px');
 	$('#riv_tab').html("Riviera");
-	$('#riv_tab').css('font-size','15px');
+	$('#riv_tab').css('font-size','12px');
 	$('#fac_tab').html('Faculty');
-	$('#fac_tab').css('font-size','15px');
+	$('#fac_tab').css('font-size','12px');
 	$('#board_tab').html('Board');
-	$('#board_tab').css('font-size','15px');
+	$('#board_tab').css('font-size','12px');
 	$('#core_tab').html('Core');
-	$('#core_tab').css('font-size','15px');
+	$('#core_tab').css('font-size','12px');
   }
   else if($(window).width()<700)
   {
-    $('#foot-logo').css('width', '5%').css('left', '46.6%').css('bottom', '13%');
+    $('#foot-logo').css('width', '5%').css('left', '47.5%').css('bottom', '14%');
 	$('.nav-text').css('font-size','20px');	
 	$('.head').css('font-size','60px');	
 	$('#images').hide();
+	$('#up_tab').click();
 	$('#up_tab').html('Upcoming');
 	$('#pre_tab').html('Premium');
+	$('#week_tabs').show();
+	$('#week_tabs').html('<li class="tab col s12"><a id="week_tab" href="#weekly" class="black-text lighten-1"></a></li>');
 	$('#week_tab').html('Weekly');
+	$('#weekly').hide();
+	$('#week_tabs').click(function(){
+	$('#week_tab').click();
+	$('#weekly').show();	
+	});
+	$('#week_tab').css('font-size','16px');
 	$('#gra_tab').html("graVITas'15");
 	$('#riv_tab').html("Riviera'16");
 	$('#fac_tab').html('Faculty');
@@ -348,11 +381,18 @@ $(document).ready(function(){
 	$('.nav-text').css('font-size','20px');	
 	$('.head').css('font-size','60px');	
 	$('#images').show();
+	$('#up_tab').click();
 	$('#up_tab').html('Upcoming Events');
 	$('#up_tab').css('font-size','18px');
 	$('#pre_tab').html('Premium Events');
 	$('#pre_tab').css('font-size','18px');
+	$('#week_tabs').show();
+	$('#week_tabs').html('<li class="tab col s12"><a id="week_tab" href="#weekly" class="black-text lighten-1"></a></li>');
 	$('#week_tab').html('Weekly Events');
+	$('#weekly').hide();
+	$('#week_tabs').click(function(){
+	$('#weekly').show();	
+	});
 	$('#week_tab').css('font-size','18px');
 	$('#gra_tab').html("graVITas'15");
 	$('#gra_tab').css('font-size','18px');
